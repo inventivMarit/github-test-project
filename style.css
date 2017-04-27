@@ -2,13 +2,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #F7F7F7;
 }
-.wrapper {
-	max-width: 800px;
-	margin: 0 auto;
-}
-.header {
-	padding: 5px 20px;
-}
+
+/* -----------
+	Styles
+-------------- */
+
 b, strong {
 	font-weight: 700;
 }
@@ -27,6 +25,30 @@ h3 {
 	font-size: 15px; 
 	color: #333333; 
 }
+ul {
+	margin-bottom: 20px;
+}
+ul li {
+	margin-bottom: 8px;
+}
+hr{
+    background-color: #ccc;
+    border-width: 0;
+    padding-top: 1px;
+    margin: 30px 0;
+}
+
+/* -----------
+	Layout
+-------------- */
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.header {
+	padding: 5px 20px;
+}
 .content {
 	background-color: #ffffff;
 	border: 1px solid #DEDEDE;
@@ -35,14 +57,17 @@ h3 {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 }
-ul {
-	margin-bottom: 20px;
-}
-ul li {
-	margin-bottom: 8px;
-}
 .quote {
 	background-color: #f7f7f7;
 	border-left: 4px solid #e6e6e6;
 	padding: 5px 10px;
+}
+code {
+	background-color: #585858;
+    color: #ffffff;
+    font-family: Courier,monospace;
+    font-weight: normal;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
 }
